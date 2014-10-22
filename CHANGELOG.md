@@ -2,6 +2,7 @@ Next
 ====
 
 * Add your message and a link to your github account right below this line.
+* Added unit testing spec file for DateTime factory. - [@dsweet04](https://github.com/dsweet04)
 * Added unit testing spec file for Page factory. - [@dsweet04](https://github.com/dsweet04)
 * Added unit testing folder layout and spec files. - [@dsweet04](https://github.com/dsweet04)
 * Added top level app spec. - [@dsweet04](https://github.com/dsweet04)
