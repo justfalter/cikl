@@ -2,6 +2,7 @@ Next
 ====
 
 * Add your message and a link to your github account right below this line.
+* Added top level app spec. - [@dsweet04](https://github.com/dsweet04)
 * Added unit test libraries and updated test specrunner. - [@dsweet04](https://github.com/dsweet04)
 * Fixed minor ui issues. Added ipv4 and ipv6 observables to ui. - [@dsweet04](https://github.com/dsweet04)
 * Created URL query parameters and added URI encoding. - [@dsweet04](https://github.com/dsweet04)
