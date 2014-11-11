@@ -3,5 +3,4 @@ node_js:
   - "0.10"
 before_install:
   - npm install -g grunt-cli
-  - npm install grunt-jasmine-runner
-  - npm install grunt-jasmine-bundle
+  - npm install grunt-contrib-jasmine
