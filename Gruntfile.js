@@ -1,21 +1,19 @@
-jasmine: {
-  components: {
-    src: [
-      'ui/public/controllers/*js',
-      'ui/public/directives/*js',
-      'ui/public/services/*js'
-    ],
-    options: {
-      specs: [
-        'ui/public/spec/controllers/*Spec.js',
-        'ui/public/spec/directives/*Spec.js',
-        'ui/public/spec/services/*Spec.js'
-      ],
-      keepRunner : true,
-      //helpers: 'test/spec/*.js'
+module.exports = function(grunt) {
+  grunt.initConfig({
+    jasmine : {
+      // Your project's source files
+      src : 'ui/public/**/*js',
+      // Your Jasmine spec files
+      specs : 'specs/**/*spec.js',
+      // Your spec runner location
+      host: 'http://localhost:63342/cikl/ui/public/SpecRunner.html'
     }
-  }
+  });
 
-grunt.registerTask('travis', [
-  'jasmine'
-]);
+  // Register tasks.
+  grunt.loadNpmTasks('grunt-jasmine-runner');
+  grunt.loadNpmTasks("grunt-jasmine-bundle");
+
+  // Default task.
+  grunt.registerTask('default', 'jasmine');
+};

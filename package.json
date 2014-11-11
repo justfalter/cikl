@@ -1,7 +1,14 @@
 {
   "name": "cikl",
   "version": "0.8.0",
+  "repository" :
+  { "type" : "git"
+    , "url" : "https://github.com/dsweet04/cikl.git"
+  },
+  "dependencies": {},
   "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jasmine": "~0.4.2"
   },
 
   "scripts": {
