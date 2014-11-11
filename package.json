@@ -8,6 +8,8 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
+    "grunt-jasmine-runner" : "latest",
+    "grunt-jasmine-bundle" : "latest",
     "grunt-contrib-jasmine": "~0.4.2"
   },
 
