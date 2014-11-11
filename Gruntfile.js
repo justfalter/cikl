@@ -4,7 +4,7 @@ module.exports = function(grunt) {
       // Your project's source files
       src : 'ui/public/**/*js',
       // Your Jasmine spec files
-      specs : 'specs/**/*spec.js',
+      specs : 'ui/public/spec/**/*spec.js',
       // Your spec runner location
       host: 'http://localhost:63342/cikl/ui/public/SpecRunner.html'
     }
