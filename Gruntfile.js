@@ -11,8 +11,7 @@ module.exports = function(grunt) {
   });
 
   // Register tasks.
-  grunt.loadNpmTasks('grunt-jasmine-runner');
-  grunt.loadNpmTasks("grunt-jasmine-bundle");
+  grunt.loadNpmTasks('grunt-contrib-jasmine');
 
   // Default task.
   grunt.registerTask('default', 'jasmine');
