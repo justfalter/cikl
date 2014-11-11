@@ -1,0 +1,10 @@
+{
+  "name": "cikl",
+  "version": "0.8.0",
+  "devDependencies": {
+  },
+
+  "scripts": {
+    "test": "grunt travis --verbose"
+  }
+}
