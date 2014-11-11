@@ -14,9 +14,15 @@ module.exports = function(grunt) {
         // Your spec runner location
         //host: 'http://localhost:63342/cikl/ui/public/SpecRunner.html'
         vendor : [
-          'js/angular.js',
           'js/jquery-2.1.1.js',
-          'js/**/*.js'
+          'js/bootstrap.js',
+          'js/angular.js',
+          'js/angular-resource.js',
+          'js/angular-route.js',
+          'js/angular-animate.js',
+          'js/angular-mocks.js',
+          'js/ui-bootstrap-tpls-0.11.0.js',
+          'js/moment.js'
         ]
       }
     }
