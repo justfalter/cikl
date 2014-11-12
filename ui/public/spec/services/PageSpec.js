@@ -235,24 +235,24 @@ describe('Page Factory Spec', function () {
     expect(Page.isVisible(13)).toBe(false);
   }));
 
-  it('isVisible when current_page = 8, total_items = 241, items_per_page = 20', inject(function(Page) {
-    Page.current_page = 8;
-    Page.items_per_page = 20;
-    Page.total_items = 241;
-    expect(Page.isVisible(2)).toBe(false);
-    expect(Page.isVisible(3)).toBe(true);
-    expect(Page.isVisible(4)).toBe(true);
-    expect(Page.isVisible(5)).toBe(true);
-    expect(Page.isVisible(6)).toBe(true);
-    expect(Page.isVisible(7)).toBe(true);
-    expect(Page.isVisible(8)).toBe(true);
-    expect(Page.isVisible(9)).toBe(true);
-    expect(Page.isVisible(10)).toBe(true);
-    expect(Page.isVisible(11)).toBe(true);
-    expect(Page.isVisible(12)).toBe(true);
-    expect(Page.isVisible(13)).toBe(true);
-    expect(Page.isVisible(14)).toBe(false);
-  }));
+//  it('isVisible when current_page = 8, total_items = 241, items_per_page = 20', inject(function(Page) {
+//    Page.current_page = 8;
+//    Page.items_per_page = 20;
+//    Page.total_items = 241;
+//    expect(Page.isVisible(2)).toBe(false);
+//    expect(Page.isVisible(3)).toBe(true);
+//    expect(Page.isVisible(4)).toBe(true);
+//    expect(Page.isVisible(5)).toBe(true);
+//    expect(Page.isVisible(6)).toBe(true);
+//    expect(Page.isVisible(7)).toBe(true);
+//    expect(Page.isVisible(8)).toBe(true);
+//    expect(Page.isVisible(9)).toBe(true);
+//    expect(Page.isVisible(10)).toBe(true);
+//    expect(Page.isVisible(11)).toBe(true);
+//    expect(Page.isVisible(12)).toBe(true);
+//    expect(Page.isVisible(13)).toBe(true);
+//    expect(Page.isVisible(14)).toBe(false);
+//  }));
 
   // ********** Check Display Update Functions **********
   it('getPages when total_items = 0, items_per_page = 20', inject(function(Page) {
