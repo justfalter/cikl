@@ -28,8 +28,8 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50739956" vertical-offset="0" max-vertical-offset="946">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23784356" vertical-offset="0" max-vertical-offset="946">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -338,14 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/public/SpecRunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.956522" vertical-offset="0" max-vertical-offset="1110">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.913044" vertical-offset="0" max-vertical-offset="1020">
@@ -370,10 +362,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui/public/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.956522" vertical-offset="0" max-vertical-offset="1110">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50739956" vertical-offset="0" max-vertical-offset="946">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23784356" vertical-offset="0" max-vertical-offset="946">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
