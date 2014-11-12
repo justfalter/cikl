@@ -19,7 +19,10 @@ module.exports = function(grunt) {
       ],
       options: {
         // Your Jasmine spec files
-        specs: 'ui/public/spec/**/*Spec.js',
+        specs: [
+          'ui/public/spec/**/*Spec.js',
+          'ui/public/spec/*Spec.js'
+        ],
         // Your spec runner location
         //host: 'http://localhost:63342/cikl/ui/public/SpecRunner.html'
         vendor: [
