@@ -1,10 +1,6 @@
 {
   "name": "cikl",
   "version": "0.8.0",
-  "repository" :
-  { "type" : "git"
-    , "url" : "https://github.com/dsweet04/cikl.git"
-  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "latest",
