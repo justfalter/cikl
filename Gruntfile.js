@@ -19,8 +19,8 @@ module.exports = function(grunt) {
           'ui/public/js/angular-animate.js',
           'ui/public/js/angular-resources.js',
           'ui/public/js/angular-route.js',
-          'ui/public/js/bootstrap.js',
           'ui/public/js/jquery-2.1.1.js',
+          'ui/public/js/bootstrap.js',
           'ui/public/js/moment.js',
           'ui/public/js/ui_bootstrap-tpls-0.11.0.js'
         ]
