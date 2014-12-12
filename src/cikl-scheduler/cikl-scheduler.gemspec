@@ -17,11 +17,14 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'cikl-event',                version
   s.add_dependency 'threatinator-output-cikl',  version
-  s.add_dependency 'threatinator',              '=0.1.6'
+  s.add_dependency 'threatinator',              '=0.2.1'
   s.add_dependency 'rack',                      '>=0'
   s.add_dependency 'sinatra',                   '~> 1.4.0'
-  s.add_dependency 'whenever',                  '>=0'
-  s.add_dependency 'sidekiq',                   '>=0'
+  s.add_dependency 'clockwork',                  '>=1.1.0'
+  s.add_dependency 'sidekiq',                   '~> 3.3.0'
+  s.add_dependency 'sidekiq-status',            '~> 0.5.1'
+  s.add_dependency 'sidekiq-retries',            '~> 0.3.0'
+  s.add_dependency 'sidekiq-unique-jobs',       '~> 3.0.10'
 
   s.add_dependency 'bundler',         '>= 1.3.0', '< 2.0'
 end
