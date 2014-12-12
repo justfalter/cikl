@@ -11,7 +11,7 @@ RUN \
 
 # Ensure that theonly thing that triggers a rebuild is modifications to the 
 # Gemfile, and not anything else inside the src dir.
-ADD src/Gemfile* src/VERSION /opt/cikl/core/
+ADD src/Gemfile.core src/VERSION /opt/cikl/core/
 ADD src/cikl-core/cikl-core.gemspec /opt/cikl/core/cikl-core/cikl-core.gemspec
 ADD src/cikl-api/cikl-api.gemspec /opt/cikl/core/cikl-api/cikl-api.gemspec
 ADD src/cikl-worker/cikl-worker.gemspec /opt/cikl/core/cikl-worker/cikl-worker.gemspec

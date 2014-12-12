@@ -11,7 +11,7 @@ RUN \
 
 # Ensure that theonly thing that triggers a rebuild is modifications to the 
 # Gemfile, and not anything else inside the src dir.
-ADD src/Gemfile* src/VERSION /opt/cikl/scheduler/
+ADD src/Gemfile.scheduler src/VERSION /opt/cikl/scheduler/
 ADD src/cikl-scheduler/cikl-scheduler.gemspec /opt/cikl/scheduler/cikl-scheduler/cikl-scheduler.gemspec
 ADD src/cikl-event/cikl-event.gemspec /opt/cikl/scheduler/cikl-event/cikl-event.gemspec
 ADD src/threatinator-output-cikl/threatinator-output-cikl.gemspec /opt/cikl/scheduler/threatinator-output-cikl/threatinator-output-cikl.gemspec
