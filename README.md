@@ -58,8 +58,8 @@ or
 
 ```fig stop```
 
-To stop a specific service (example: 'dnsworker'):
-```fig stop dnsworker```
+To stop a specific service (example: 'scheduler'):
+```fig stop scheduler```
 
 ### Opening a root shell on a container that's running a service:
 First, get the name of the docker container:
@@ -96,14 +96,14 @@ fig run scheduler threatinator-list
 
 If you want to import the 'mirc' 'domain_reputation' feed:
 ```
-fig run dnsworker threatinator-run mirc domain_reputation
+fig run scheduler threatinator-run mirc domain_reputation
 ```
 
 #### Running all feeds
 If you're especially brave, you can import all feeds with one easy command:
 
 ```
-fig run dnsworker threatinator-run-all
+fig run scheduler threatinator-run-all
 ```
 
 ### Updating 
