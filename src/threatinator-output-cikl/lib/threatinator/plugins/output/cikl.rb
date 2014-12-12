@@ -21,8 +21,8 @@ module Threatinator
             ret.tags << event.type.to_s
           end
 
-          event.ipv4s.each do |ipv4|
-            ret.observables.ipv4 << ::Cikl::Observable::Ipv4.new(ipv4: ipv4)
+          event.ipv4s.each do |ipv4_o|
+            ret.observables.ipv4 << ::Cikl::Observable::Ipv4.new(ipv4: ipv4_o.ipv4)
           end
 
           event.fqdns.each do |fqdn|
